@@ -34,6 +34,11 @@
     .launch.purple .launch-icon { background: #ede9fe; }
     .portal-divider { max-width: 1200px; margin: 14px auto 0; border-top: 1px solid var(--line); }
 
+    /* ---- 旧アプリへの控えめなテキストリンク（右寄せ・小さく） ---- */
+    .legacy-links { display: flex; justify-content: flex-end; gap: 16px; margin-top: 10px; }
+    .legacy-link { font-size: 11px; color: #94a3b8; text-decoration: none; }
+    .legacy-link:active { color: #475569; }
+
     /* ---- ToDoヘッダー：見出し＋週の日付を1行に（縦幅節約） ---- */
     .app-header .todo-bar { display: flex; align-items: center; gap: 8px 14px; flex-wrap: wrap; margin-bottom: 8px; }
     .app-header .todo-title { font-size: 17px; font-weight: 700; margin: 0; white-space: nowrap; }
@@ -52,14 +57,16 @@
       <a class="launch blue"   href="https://komaguchi-wq.github.io/kobetsuba-web-jugyou/"><span class="launch-icon">📘</span><span class="launch-label">コベツバ</span></a>
       <a class="launch blue"   href="https://komaguchi-wq.github.io/math-quiz/#%E3%81%95%E3%81%A8/machigai-gallery"><span class="launch-icon">❌</span><span class="launch-label">間違い撲滅</span></a>
       <a class="launch blue"   href="https://komaguchi-wq.github.io/math-challenge/"><span class="launch-icon">🔢</span><span class="launch-label">計算</span></a>
-      <a class="launch green"  href="https://komaguchi-wq.github.io/science-daily-check/"><span class="launch-icon">🧪</span><span class="launch-label">SAPIX理科</span></a>
       <a class="launch green"  href="https://komaguchi-wq.github.io/science-daily-check-v2/"><span class="launch-icon">🔬</span><span class="launch-label">理科 V2</span></a>
-      <a class="launch orange" href="https://komaguchi-wq.github.io/shakai-daily-check/"><span class="launch-icon">🌍</span><span class="launch-label">SAPIX社会</span></a>
       <a class="launch orange" href="https://komaguchi-wq.github.io/shakai-daily-check-v2/"><span class="launch-icon">🗾</span><span class="launch-label">社会 V2</span></a>
       <a class="launch red"    href="https://komaguchi-wq.github.io/kokugo-kotobanavi/"><span class="launch-icon">📖</span><span class="launch-label">言葉ナビ</span></a>
       <a class="launch red"    href="https://komaguchi-wq.github.io/goi1400-training/"><span class="launch-icon">📝</span><span class="launch-label">語彙力</span></a>
       <a class="launch purple" href="https://komaguchi-wq.github.io/sapix-info/"><span class="launch-icon">📋</span><span class="launch-label">SAPIX情報</span></a>
       <a class="launch purple" href="https://komaguchi-wq.github.io/juken-guide/"><span class="launch-icon">🏫</span><span class="launch-label">入試ガイド</span></a>
+    </div>
+    <div class="legacy-links">
+      <a class="legacy-link" href="https://komaguchi-wq.github.io/science-daily-check/">旧理科アプリへ</a>
+      <a class="legacy-link" href="https://komaguchi-wq.github.io/shakai-daily-check/">旧社会アプリへ</a>
     </div>
   </div>
   <div class="portal-divider"></div>
